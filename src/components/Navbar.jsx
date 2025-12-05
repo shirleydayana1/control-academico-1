@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Navbar.css";
-import logo from "../assets/UCV.png";
+import logo from "src/img/UCV.png";
 
 export default function Navbar({ onLogout }) {
   const [open, setOpen] = useState(false);
